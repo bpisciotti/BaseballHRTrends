@@ -10,7 +10,7 @@ def main():
   st.title("MLB Home Run Trends (1901-2016)")
 
 df = load_data()
-hrByYear = df.groupby("yearid").sum().reset_index()
+hrByYear = df.groupby("yearID").sum().reset_index()
 
 st.line_chart(
   data = hrByYear.set_index("yearID"),
