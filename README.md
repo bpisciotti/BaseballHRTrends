@@ -59,7 +59,7 @@ BaseballHRTrends/
 From the project root, launch:
 
 ```bash
-streamlit run app.py
+ python3 -m streamlit run app.py
 ```
 
 A browser window should open at `http://localhost:8501` displaying the home run trends chart.
