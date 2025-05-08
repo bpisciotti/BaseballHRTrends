@@ -9,7 +9,7 @@ This Streamlit app reads the `Teams.csv` dataset from the Baseball Databank and 
 ## 📁 Project Structure
 
 ```
-baseball-hr-trends/
+BaseballHRTrends/
 ├── app.py           # Streamlit application
 └── Teams.csv        # Downloaded dataset from Baseball Databank
 ```
